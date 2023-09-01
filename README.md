@@ -39,17 +39,12 @@ The LLVM project has adopted a [code of conduct](https://llvm.org/docs/CodeOfCon
 participants to all modes of communication within the project.
 
 ## For QNN
-
+```
 git checkout 9.x/qnn
-
 cd llvm-project
-
 mkdir build
-
 cd build
-
 cmake -DLLVM_ENABLE_PROJECTS=clang -DCMAKE_BUILD_TYPE=Release -G "Unix Makefiles" ../llvm
-
 make -j8
-
 make install
+```
